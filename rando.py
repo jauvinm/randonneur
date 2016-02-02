@@ -4,10 +4,7 @@ Created on Tue Feb 02 11:01:27 2016
 
 @author: jauvinm
 """
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib
-from matplotlib.colors import LightSource
+
 
 def lire_header(path):
   f = open(path)
@@ -49,7 +46,9 @@ X, Y = np.meshgrid(x,y)
 Z=data.reshape(ny, nx)
 
 
-
+"""
+blablabla
+"""
 
 fig = plt.figure(0)
 plt.clf()
