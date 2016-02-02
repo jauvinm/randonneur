@@ -4,16 +4,11 @@ Created on Tue Feb 02 11:01:27 2016
 
 @author: jauvinm
 """
-
-
-<<<<<<< HEAD
-=======
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib.colors import LightSource
-"""
->>>>>>> 8d8324576fe088d6f30ba89ef636146b99281afb
+
 def lire_header(path):
   f = open(path)
   lines = f.readlines()
@@ -54,9 +49,7 @@ X, Y = np.meshgrid(x,y)
 Z=data.reshape(ny, nx)
 
 
-"""
-blablabla
-"""
+
 
 fig = plt.figure(0)
 plt.clf()
