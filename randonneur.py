@@ -9,7 +9,6 @@ import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib.colors import LightSource
 
-"""
 def lire_header(path):
   f = open(path)
   lines = f.readlines()
