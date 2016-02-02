@@ -4,11 +4,13 @@ Created on Tue Feb 02 11:01:27 2016
 
 @author: jauvinm
 """
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
 from matplotlib.colors import LightSource
-
+"""
 def lire_header(path):
   f = open(path)
   lines = f.readlines()
@@ -73,3 +75,4 @@ plt.ylabel("Position, $y$ [m]")
 plt.contour(X,Y,Z, 10, colors = "k")
 
 plt.show()
+"""
